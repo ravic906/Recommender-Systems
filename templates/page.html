@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Product recommendations</title>
+</head>
+<body>
+
+<h1>Welcome to Product recommendations page</h1>
+<h2>Enter User ID</h2>
+
+<form action="/submit" method ="post">
+  <input type="text" id="userID" name="UserID"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h3> Recommendations: </h3>
+{{ output }}
+
+</body>
+</html>
